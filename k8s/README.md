@@ -46,7 +46,9 @@ Supply login password when prompted.
 
 ###Step 5 Create cluster
 ```
-set contivVer if you want to use a specific contiv network version.
+contivVer is set by default to v0.1-05-19-2016.08-34-56.UTC.
+
+set the contivVer if you want to use a specific contiv network version.
 example:- export contivVer=$"v0.1-06-17-2016.08-42-14.UTC"
 
 contiv network version can be obtained from: https://github.com/contiv/netplugin/releases
